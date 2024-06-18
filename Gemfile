@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 ruby "3.2.3"
 
+gem "rack-canonical-host"
 gem "good_migrations"
 gem "vite_rails", "~> 3.0"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
