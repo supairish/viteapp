@@ -82,3 +82,9 @@ production:
   database: viteapp_production
   username: viteapp
   password: <%= ENV["VITEAPP_DATABASE_PASSWORD"] %>
+
+staging:
+  <<: *default
+  database: viteapp_staging
+  username: viteapp
+  password: <%= ENV["VITEAPP_DATABASE_PASSWORD"] %>
