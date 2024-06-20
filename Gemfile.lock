@@ -357,6 +357,7 @@ PLATFORMS
   aarch64-linux
   arm-linux
   arm64-darwin-22
+  arm64-darwin-23
   x86-linux
   x86_64-darwin
   x86_64-linux
@@ -397,7 +398,7 @@ DEPENDENCIES
   webmock
 
 RUBY VERSION
-   ruby 3.2.3p157
+   ruby 3.3.3p89
 
 BUNDLED WITH
    2.5.13
