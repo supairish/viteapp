@@ -1,4 +1,4 @@
-import "~/stylesheets/index.css";
+import "~/stylesheets/index.scss";
 import "~/controllers";
 import "@hotwired/turbo-rails";
 // To see this message, add the following to the `<head>` section in your
@@ -32,3 +32,6 @@ console.log(
 
 // Example: Import a stylesheet in app/frontend/index.css
 // import '~/index.css'
+
+import 'bootstrap';
+import '~/color-modes.js';
